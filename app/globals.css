@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-blackbg;
+}
+
+.action-btn {
+  @apply text-headingcolor flex items-center gap-2 hover:bg-actionbtn px-2 py-1 rounded-lg hover:shadow-md hover:shadow-headingcolor transition duration-300 ease-in-out;
+}
+
+.carousel .control-dots .dot.selected {
+  @apply bg-headingcolor;
+}

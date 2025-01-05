@@ -1,0 +1,19 @@
+{
+  "rewrites": [
+    {
+      "source": "/project/:slug",
+      "destination": "/project/[slug]"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "/404",
+      "statusCode": 404
+    }
+  ]
+}
