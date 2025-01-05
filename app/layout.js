@@ -31,6 +31,9 @@ export const metadata = {
     { name: "Nitin Asogekar", url: "" },
     { name: "Rushikesh Amberkar", url: "" },
   ],
+  verification: {
+    google: "voDwf9Zg6ZU9Yg3hEQrFagCsmtTu6q6aotV1Tp0c9SY",
+  },
 };
 export default function RootLayout({ children }) {
   return (
