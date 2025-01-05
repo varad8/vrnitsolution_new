@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vrnitsolution.netlify.app/sitemap.xml
