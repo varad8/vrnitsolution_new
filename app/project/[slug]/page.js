@@ -26,6 +26,7 @@ import {
   EmailShareButton,
   EmailIcon,
 } from "react-share";
+import ReactPlayer from "react-player";
 
 const builder = imageUrlBuilder(createClient);
 
@@ -273,18 +274,19 @@ export default function ProjectMain({ params: paramsPromise }) {
             ),
 
             youtube: ({ title, videoUrl }) => {
-              const embedUrl = convertToEmbedUrl(videoUrl);
               return (
-                <div className="flex justify-center flex-col mt-5 mb-5 p-3 border border-gray-200 border-1">
-                  <div className="border border-gray-200 border-1">
-                    <iframe
-                      title={title}
-                      src={embedUrl}
-                      frameBorder="0"
-                      allowFullScreen
-                      className="w-full aspect-video"
-                    ></iframe>
+                <div className="mt-3 mb-5 p-3">
+                  {/* Aspect ratio wrapper */}
+                  <div className="relative aspect-video">
+                    <ReactPlayer
+                      url={videoUrl}
+                      controls
+                      width="100%"
+                      height="100%"
+                      className="absolute top-0 left-0"
+                    />
                   </div>
+                  {/* Video title */}
                   <p className="text-lg md:text-sm font-bold mt-3">{title}</p>
                 </div>
               );
