@@ -39,16 +39,16 @@ export default function FeatureSection() {
           <h2 className="text-2xl md:text-3xl font-semibold text-actionbtn/80">
             Build Your Digital Presence
           </h2>
-          <p className="text-gray-500 mt-4">
+          <p className="text-gray-300 mt-4">
             Our expert team specializes in delivering top-notch app and web
             development services. From idea to execution, we provide innovative
             solutions tailored to your business needs.
           </p>
-          <p className="text-gray-500 mt-2">
+          <p className="text-gray-300 mt-2">
             Experience unmatched quality and practical expertise by working on
             live projects that bring your vision to life.
           </p>
-          <button className="mt-6 px-6 py-3 bg-actionbtn/80 text-white text-lg font-medium rounded-lg shadow-md hover:bg-actionbtn transition duration-300">
+          <button className="mt-6 px-6 py-3 bg-actionbtn text-white text-lg font-medium rounded-lg shadow-md hover:bg-actionbtn/80 transition duration-300">
             Get Started
           </button>
         </div>

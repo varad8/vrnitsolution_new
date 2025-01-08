@@ -2,6 +2,7 @@ import ContactCp from "./contactcp";
 import FeatureSection from "./featuresection";
 import Footer from "./footer";
 import FourStepProcess from "./fourstepprocess";
+import Hbanner from "./hbanner";
 import HeroSection from "./herosection";
 import Navbar from "./navbar";
 import Partner from "./partner";
@@ -15,6 +16,7 @@ export default function HomePage() {
       <HeroSection />
       <Partner />
       <FeatureSection />
+      <Hbanner />
       <ServicesSection />
       <FourStepProcess />
       <ReviewsSection />
