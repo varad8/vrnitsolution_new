@@ -82,7 +82,7 @@ const About = () => {
                 />
                 <div className="absolute top-4 left-4 bg-white text-black p-4 rounded-md shadow">
                   <p className="text-sm font-bold">Projects Delivered</p>
-                  <p className="text-lg font-bold">1000+ Successful Projects</p>
+                  <p className="text-lg font-bold">100+ Successful Projects</p>
                 </div>
                 <div className="absolute bottom-4 right-4 bg-white text-black p-4 rounded-md shadow">
                   <p className="text-sm font-bold">Trusted by Businesses</p>
