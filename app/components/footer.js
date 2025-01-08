@@ -56,12 +56,12 @@ export default function Footer() {
           </h3>
           <ul className="space-y-2 text-gray-400">
             <li>
-              <a href="#" className="hover:text-actionbtn">
+              <a href="/" className="hover:text-actionbtn">
                 Home
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-actionbtn">
+              <a href="/service" className="hover:text-actionbtn">
                 Services
               </a>
             </li>
@@ -72,7 +72,7 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-actionbtn">
+              <a href="/project" className="hover:text-actionbtn">
                 Project
               </a>
             </li>
